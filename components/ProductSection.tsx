@@ -59,59 +59,6 @@ export default function ProductSection() {
             className="w-full h-full object-cover"
           />
         </div>
-          
-        <div
-          className="
-            absolute 
-            opacity-0 group-hover:opacity-100 
-            transition-all duration-300
-            flex flex-col items-center
-            pointer-events-none
-          "
-          style={{
-            bottom: "5%",          // 位置你可以微调
-            right: "15%",          // 位置你可以微调
-          }}
-        >
-          {/* 箭头（简单 SVG） */}
-          <svg
-            className="w-[3vw] h-[3vw] text-[#5C3A21] mb-[0.5vw]"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="3"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M5 12h14M13 5l7 7-7 7"
-            />
-          </svg>
-
-          {/* 文字提示 */}
-          <div className="wl-fs-32 font-semibold text-[#5C3A21] drop-shadow">
-            Click here for full demo
-          </div>
-        </div>
-
-        {/* 🟡 黄色按钮（可点击跳转） */}
-        <Link
-          href="/full-demo"
-          className="
-            absolute z-20
-            bg-[#E8C557] 
-            hover:bg-[#F0D46A]
-            transition-all
-            shadow-md rounded-full
-          "
-          style={{
-            width: "3.2vw",
-            height: "3.2vw",
-            bottom: "4%",
-            right: "10%",
-          }}
-        ></Link>
-
         <div className="absolute right-[7.5%] top-[8vw] pointer-events-auto">
           <SectionNav />
         </div>

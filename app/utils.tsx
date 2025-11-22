@@ -1,8 +1,8 @@
 export interface Dialog {
   id: string;
   description: string;
-  offsetX: number;
-  offsetY: number;
+  offsetX: string;
+  offsetY: string;
 };
 
 export interface Hotspot {
@@ -28,13 +28,4 @@ export interface ContactLabel {
   discription: string;
   color: string;
 };
-
-export interface Product {
-  id: number;
-  name: string;
-  price: number;
-  image: string;
-  category: string;
-  description: string;
-}
 
