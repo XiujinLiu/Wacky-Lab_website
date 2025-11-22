@@ -1,0 +1,53 @@
+
+
+/* 以 2560 作为设计宽度 */
+:root {
+  --wl-base-width: 2560;
+  /* 当前宽度相对设计宽度的缩放比：例如 1280 宽 → 0.5；2560 宽 → 1 */
+  --wl-scale: calc(100vw / var(--wl-base-width));
+}
+/* 48px @ 2560 */
+.wl-fs-48 {
+  font-size: calc((48 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-28 {
+  font-size: calc((28 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-22 {
+  font-size: calc((22 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-26 {
+  font-size: calc((26 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-20 {
+  font-size: calc((20 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-32 {
+  font-size: calc((32 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-25 {
+  font-size: calc((25 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-44 {
+  font-size: calc((44 * 100vw) / 2560);
+  line-height: 1.1;
+}
+
+.wl-fs-40 {
+  font-size: calc((40 * 100vw) / 2560);
+  line-height: 1.1;
+}

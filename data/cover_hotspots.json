@@ -1,0 +1,117 @@
+[
+  {
+    "id": "spot-1",
+    "top": "8vw",
+    "left": "65%",
+    "h": "16vw",
+    "w": "13vw",
+    "dialogs": [
+      {
+        "id": "spot-1-dialog-1",
+        "description": "Do laundry",
+        "offsetX": "9vw",
+        "offsetY": "0.5vw"
+      },
+      {
+        "id": "spot-1-dialog-2",
+        "description": "OK",
+        "offsetX": "-3vw",
+        "offsetY": "-1.5vw"
+      }
+    ]
+  },
+  {
+    "id": "spot-2",
+    "top": "11vw",
+    "left": "28%",
+    "h": "13vw",
+    "w": "37vw",
+    "dialogs": [
+      {
+        "id": "spot-2-dialog-1",
+        "description": "Here is your coffee! Let me know if you need anything.",
+        "offsetX": "15vw",
+        "offsetY": "1vw"
+      },
+      {
+        "id": "spot-2-dialog-2",
+        "description": "Thank you!",
+        "offsetX": "20vw",
+        "offsetY": "1vw"
+      }
+    ]
+  },
+  {
+    "id": "spot-3",
+    "top": "32vw",
+    "left": "25%",
+    "h": "15vw",
+    "w": "20vw",
+    "dialogs": [
+      {
+        "id": "spot-3-dialog-1",
+        "description": "Good morning, sweety! What can I get for you today?",
+        "offsetX": "5vw",
+        "offsetY": "2vw"
+      },
+      {
+        "id": "spot-3-dialog-2",
+        "description": "A grande lemon tea please!",
+        "offsetX": "5vw",
+        "offsetY": "-4vw"
+      }
+    ]
+  },
+  {
+    "id": "spot-4",
+    "top": "36vw",
+    "left": "45%",
+    "h": "12vw",
+    "w": "22vw",
+    "dialogs": [
+      {
+        "id": "spot-4-dialog-1",
+        "description": "Alright, we're here.",
+        "offsetX": "6vw",
+        "offsetY": "2vw"
+      },
+      {
+        "id": "spot-4-dialog-2",
+        "title": "点位四 · B",
+        "description": "Thanks!",
+        "offsetX": "3vw",
+        "offsetY": "5vw"
+      }
+    ]
+  },
+  {
+    "id": "spot-5",
+    "top": "30vw",
+    "left": "69%",
+    "h": "12vw",
+    "w": "12vw",
+    "dialogs": [
+      {
+        "id": "spot-5-dialog-1",
+        "description": "Thanks to the home robot, I finally have time to work out.",
+        "offsetX": "2vw",
+        "offsetY": "5vw"
+      }
+    ]
+  },
+  {
+    "id": "spot-6",
+    "top": "24vw",
+    "left": "3%",
+    "h": "20vw",
+    "w": "19vw",
+    "dialogs": [
+      {
+        "id": "spot-6-dialog-1",
+        "description": "The robot arm can stay and suffer. We, however, are going home.",
+        "offsetX": "10vw",
+        "offsetY": "-3vw"
+      }
+    ]
+  }
+]
