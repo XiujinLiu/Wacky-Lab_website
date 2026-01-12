@@ -2,35 +2,35 @@
   {
     "id": "1",
     "top": "21vw",
-    "left": "13.5%",
+    "left": "12vw",
     "discription": "Artificial Intellegence",
     "color": "#dc7156"
   },
   {
     "id": "2",
-    "top": "31vw",
-    "left": "28%",
+    "top": "30.5vw",
+    "left": "27vw",
     "discription": "Fresh Handcrafted Drinks",
     "color": "#5d96bc"
   },
   {
     "id": "3",
-    "top": "24vw",
-    "left": "42%",
+    "top": "22.5vw",
+    "left": "41vw",
     "discription": "Robotics",
     "color": "#87a491"
   },
   {
     "id": "4",
-    "top": "26vw",
-    "left": "56%",
+    "top": "25vw",
+    "left": "55vw",
     "discription": "Design",
     "color": "#dc7156"
   },
   {
     "id": "5",
-    "top": "20.5vw",
-    "left": "72%",
+    "top": "31vw",
+    "left": "69vw",
     "discription": "Coding",
     "color": "#e9c55b"
   }

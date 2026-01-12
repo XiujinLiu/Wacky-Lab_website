@@ -9,28 +9,28 @@ const topics = rawTopics as ContactLabel[];
 
 export default function ContactSection() {
   return (
-    <section id="section-4" className="relative w-full">
+    <section id="section-3" className="relative w-full">
       <Image
-        src="/images/contact.png"
+        src="/images/about_us.png"
         alt="Contact"
         width={2560}
         height={1600}
         priority
         className="w-full h-auto object-cover"
       />
-      <div className="absolute left-[7vw] top-[4vw]
-                z-30 wl-fs-40 font-semibold tracking-wide text-[#5C3A21]">
-                If you're looking to access our service or wish to collaborate with us on ...
-      </div>
-      <div className = "flex flex-col gap-[3vw] absolute left-[15vw] top-[38vw] z-30 text-[#5C3A21] tracking-wide font-semibold ">
+      <div className = "flex flex-col gap-[2vw] absolute left-[15vw] top-[39vw] z-30 text-[#5C3A21] tracking-wide font-semibold ">
+        <div className="
+                  wl-fs-40">
+                  If you want to collaborate or have any questions,
+        </div>
         <div className="
                   wl-fs-40">
                   please reach out at 
                   <a className="wl-fs-48"
                   href="mailto:wackylab7@gmail.com"> wackylab7@gmail.com </a>
         </div>
-        <div className="wl-fs-40 max-w-[50vw]">
-                "Let's build the world together and make great things happen!”
+        <div className="wl-fs-40 max-w-[50vw] text-[#E85D4E]">
+                "Let's build the world together”
         </div>
       </div>  
 
@@ -57,7 +57,7 @@ export default function ContactSection() {
       ))}
 
 
-      <div className="absolute right-[7.5%] top-[7vw] pointer-events-auto">
+      <div className="absolute right-[1.13vw] top-[5vw] pointer-events-auto">
                       <SectionNav />
       </div>
     </section>

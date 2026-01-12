@@ -1,8 +1,38 @@
 [
   {
-    "id": "news-1",
+    "id": "news-6",
+    "date": "2025-12-15",
+    "title": "YC Top 10% Selection",
+    "summary": "We are proud to announce that we have been selected for the top 10% of Y Combinator applicants."
+  },
+  {
+    "id": "news-5",
     "date": "2025-11-21",
     "title": "Website Ready",
     "summary": "We got our website set up!"
+  },
+  {
+    "id": "news-4",
+    "date": "2025-11-10",
+    "title": "YC Application Submitted",
+    "summary": "We have officially submitted our application to Y Combinator."
+  },
+  {
+    "id": "news-3",
+    "date": "2025-11-07",
+    "title": "SopenArm Released",
+    "summary": "We have open-sourced SopenArm, our isomorphic robotic arm teleoperation system for OpenArm."
+  },
+  {
+    "id": "news-2",
+    "date": "2025-10-31",
+    "title": "Hardware Setup Complete",
+    "summary": "Our core hardware infrastructure has been successfully set up and tested."
+  },
+  {
+    "id": "news-1",
+    "date": "2025-07-21",
+    "title": "Company Founded",
+    "summary": "Today marks the official founding of our company. The journey begins!"
   }
 ]
