@@ -190,7 +190,7 @@ export default function CoverSection({ hotspots, newsItems }: HeroSectionProps) 
                 News
               </div>
               <div className="wl-fs-26 text-[#5C3A21] mt-[0.5vw] mb-[1.5vw] text-center">
-                What's New · WackyLab
+                What's New · Qrafty
               </div>
             </div>
 
