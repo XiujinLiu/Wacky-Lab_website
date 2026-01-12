@@ -44,7 +44,7 @@ export default function VisionPage() {
 
         <div className="relative w-full">
           <Image
-            src="/images/vision.png"
+            src="/images/vision_final.png"
             alt="Qrafty Vision Illustration"
             width={2560}
             height={4000}

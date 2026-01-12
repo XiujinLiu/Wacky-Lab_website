@@ -44,7 +44,7 @@ export default function VisionPage() {
 
         <div className="relative w-full">
           <Image
-            src="/images/product_page.png"
+            src="/images/product_page_final.png"
             alt="Qrafty Vision Illustration"
             width={2560}
             height={4000}
@@ -89,7 +89,7 @@ export default function VisionPage() {
         </div>
         </div>
 
-        <div className="mt-[-1vw] mb-[2vw]">
+        <div className="mt-[1vw] mb-[2vw]">
           <Link 
             href="/" 
             className={`

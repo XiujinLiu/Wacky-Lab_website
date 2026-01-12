@@ -27,7 +27,7 @@ export default function ContactSection() {
                   wl-fs-40">
                   please reach out at 
                   <a className="wl-fs-48"
-                  href="mailto:wackylab7@gmail.com"> wackylab7@gmail.com </a>
+                  href="mailto:liuxj0666@gmail.com"> liuxj0666@gmail.com </a>
         </div>
         <div className="wl-fs-40 max-w-[50vw] text-[#E85D4E]">
                 "Let's build the world together”
