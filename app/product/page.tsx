@@ -69,7 +69,7 @@ export default function VisionPage() {
             w-[47.1vw]
             h-[27.2vw]
             overflow-hidden
-            rounded-[24px]
+            rounded-[2vw]
             shadow-lg
             border border-[#5C3A21]/10
           "
@@ -78,14 +78,21 @@ export default function VisionPage() {
             transformOrigin: "center center",
           }}
         >
-          <video
-            src="/images/demo.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-          />
+          <div className="relative w-full h-full">
+            <iframe
+              src="https://www.youtube.com/embed/yHQ27VNNdcU?autoplay=1&mute=1&controls=0&loop=1&playlist=yHQ27VNNdcU&playsinline=1"
+              title="YouTube video player"
+              className="w-full h-full object-cover pointer-events-none" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              tabIndex={-1}/>
+          </div>
+          <a
+            href="https://youtu.be/yHQ27VNNdcU"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full h-full cursor-pointer z-50 bg-red-500/30"
+          >
+          </a>
         </div>
         </div>
 

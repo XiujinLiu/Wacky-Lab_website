@@ -1,8 +1,6 @@
 import Image from "next/image";
 import SectionNav from "@/components/SectionNav";
 import Link from "next/link";
-import VisionModal from "@/components/VisionModal";
-import { useState } from "react";
 
 
 export default function ProductSection() {
@@ -83,7 +81,7 @@ export default function ProductSection() {
             w-[56.3%]
             h-[30.3vw]
             overflow-hidden
-            rounded-[24px]
+            rounded-[2vw]
             shadow-lg
             border border-[#5C3A21]/10
           "
@@ -92,14 +90,22 @@ export default function ProductSection() {
             transformOrigin: "center center",
           }}
         >
-          <video
-            src="/images/demo.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-          />
+          
+          <div className="relative w-full h-full">
+            <iframe
+              src="https://www.youtube.com/embed/yHQ27VNNdcU?autoplay=1&mute=1&controls=0&loop=1&playlist=yHQ27VNNdcU&playsinline=1"
+              title="YouTube video player"
+              className="w-full h-full object-cover pointer-events-none" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              tabIndex={-1}/>
+          </div>
+          <a
+            href="https://youtu.be/yHQ27VNNdcU"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full h-full cursor-pointer z-50 bg-red-500/30"
+          >
+          </a>
         </div>
         <div className="absolute right-[1.13vw] top-[8vw] pointer-events-auto">
           <SectionNav />
