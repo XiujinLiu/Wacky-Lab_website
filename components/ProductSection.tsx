@@ -41,14 +41,14 @@ export default function ProductSection() {
             
             <div className="relative w-full h-full">
               <iframe
-                src="https://www.youtube.com/embed/yHQ27VNNdcU?autoplay=1&mute=1&controls=0&loop=1&playlist=yHQ27VNNdcU&playsinline=1"
+                src="https://www.youtube.com/embed/1XmKD99R5v0?autoplay=1&mute=1&controls=0&loop=1&playlist=1XmKD99R5v0&playsinline=1"
                 title="YouTube video player"
                 className="w-full h-full object-cover pointer-events-none" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 tabIndex={-1}/>
             </div>
             <a
-              href="https://youtu.be/yHQ27VNNdcU"
+              href="https://youtu.be/1XmKD99R5v0"
               target="_blank"
               rel="noopener noreferrer"
               className="absolute inset-0 z-50 cursor-pointer" // 调试完成后可去掉颜色
