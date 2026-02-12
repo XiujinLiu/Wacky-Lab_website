@@ -7,6 +7,7 @@
   --wl-scale: calc(100vw / var(--wl-base-width));
 }
 
+/* 390px aligns with common iPhone viewport widths. */
 @media (max-width: 480px) {
   :root {
     --wl-base-width: 390;
