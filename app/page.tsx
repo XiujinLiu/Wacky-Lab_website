@@ -14,7 +14,7 @@ const hotspots = hotspotsData as Hotspot[];
 
 export default function HomePage() {
   return (
-    <main className="w-screen px-[4vw] py-[3vw] bg-[#fefdfa]">
+    <main className="w-full px-[4vw] py-[3vw] bg-[#fefdfa]">
       <CoverSection hotspots={hotspots} newsItems={newsItems} />
       <ProductSection />
       <ContactSection />
